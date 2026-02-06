@@ -1,17 +1,207 @@
 [
   {
-    "taskName": "Drink Water",
-    "taskDescription": "Drink one glass of water after waking up",
-    "imageUrl": "https://raw.githubusercontent.com/SwatiSharma29194/easeMind/main/Orange%20Simple%20Printable%20Glass%20of%20Water%20Flyer.png"
-  }, 
-   {
-    "taskName": "Drink Water2",
-    "taskDescription": "Drink one glass of water after waking up",
-    "imageUrl": "https://raw.githubusercontent.com/SwatiSharma29194/easeMind/main/Orange%20Simple%20Printable%20Glass%20of%20Water%20Flyer.png"
+    "taskName": "The 5-4-3-2-1 Technique",
+    "taskDescription": "Acknowledge 5 things you see, 4 things you can touch, 3 things you hear, 2 things you can smell, and 1 thing you can taste. This anchors you in the now.",
+    "image": "https://raw.githubusercontent.com/SwatiSharma29194/easeMind/main/The%205-4-3-2-1%20Technique.png"
   },
-      {
-    "taskName": "Drink Water3",
-    "taskDescription": "Drink one glass of water after waking up",
-    "imageUrl": "https://raw.githubusercontent.com/SwatiSharma29194/easeMind/main/Orange%20Simple%20Printable%20Glass%20of%20Water%20Flyer.png"
+  {
+    "taskName": "Box Breathing",
+    "taskDescription": "Inhale for 4 seconds, hold for 4, exhale for 4, and hold empty for 4. Imagine drawing a square in your mind with each breath.",
+    "image": "https://raw.githubusercontent.com/SwatiSharma29194/easeMind/main/box%20breathing%20diagram.png"
+  },
+  {
+    "taskName": "Progressive Muscle Relaxation",
+    "taskDescription": "Starting from your toes, tense each muscle group for 5 seconds, then release. Work your way up to your shoulders and face.",
+    "image": "https://raw.githubusercontent.com/SwatiSharma29194/easeMind/main/Progressive%20Muscle%20Relaxation.png"
+  },
+  {
+    "taskName": "Hydration Check",
+    "taskDescription": "Slowly drink a glass of cold water. Focus on the sensation of the cool liquid as it refreshes your body.",
+    "image": "https://raw.githubusercontent.com/SwatiSharma29194/easeMind/main/Hydration%20Check.png"
+  },
+  {
+    "taskName": "Digital Detox",
+    "taskDescription": "Put your phone in another room or turn it off for 15 minutes. Enjoy the silence and the lack of notifications.",
+    "image": "https://raw.githubusercontent.com/SwatiSharma29194/easeMind/main/Digital%20Detox.png"
+  },
+  {
+    "taskName": "The 'Brain Dump'",
+    "taskDescription": "Grab a piece of paper and write down everything bothering you for 2 minutes. Don't worry about grammar; just get it out of your head.",
+    "image": "https://raw.githubusercontent.com/SwatiSharma29194/easeMind/main/The%20Brain%20Dump.png"
+  },
+  {
+    "taskName": "Cold Water Splash",
+    "taskDescription": "Splash cold water on your face. This can trigger the 'mammalian dive reflex,' which naturally lowers your heart rate.",
+    "image": "https://raw.githubusercontent.com/SwatiSharma29194/easeMind/main/Cold%20Water%20Splash.png"
+  },
+  {
+    "taskName": "Hum a Tune",
+    "taskDescription": "Hum your favorite song quietly. The vibration in your chest and throat helps stimulate the vagus nerve, promoting relaxation.",
+    "image": "https://raw.githubusercontent.com/SwatiSharma29194/easeMind/main/Hum%20a%20Tune.png"
+  },
+  {
+    "taskName": "Desk Declutter",
+    "taskDescription": "Spend 3 minutes clearing your immediate workspace. A clear space often leads to a clearer mind.",
+    "image": "organized desk workspace illustration"
+  },
+  {
+    "taskName": "Gratitude Trio",
+    "taskDescription": "Write down or think of three specific things that went well today, no matter how small they seem.",
+    "image": "gratitude list heart illustration"
+  },
+  {
+    "taskName": "Shoulder Roll",
+    "taskDescription": "Lift your shoulders to your ears, then roll them back and down. Repeat 5 times to release 'carried' tension.",
+    "image": "shoulder stretch posture illustration"
+  },
+  {
+    "taskName": "Cloud Watching",
+    "taskDescription": "If you are near a window or outside, look at the clouds for 2 minutes. Observe their shapes and how they change.",
+    "image": "watching clouds sky illustration"
+  },
+  {
+    "taskName": "Pet Connection",
+    "taskDescription": "If you have a pet, spend a few minutes petting them. Focus on the texture of their fur and their breathing.",
+    "image": "petting cat dog comfort illustration"
+  },
+  {
+    "taskName": "Scent Association",
+    "taskDescription": "Smell something pleasant like coffee, a candle, or a piece of fruit. Focus entirely on the aroma.",
+    "image": "smelling candle aroma illustration"
+  },
+  {
+    "taskName": "Forest Bathing (Visual)",
+    "taskDescription": "Look at a photo or video of a forest or nature. Imagine the sound of the leaves and the smell of the trees.",
+    "image": "nature forest scenery illustration"
+  },
+  {
+    "taskName": "Hand Massage",
+    "taskDescription": "Use your thumb to massage the palm of your opposite hand in circular motions. Switch sides after a minute.",
+    "image": "hand massage relaxation illustration"
+  },
+  {
+    "taskName": "A Good Stretch",
+    "taskDescription": "Reach your arms as high as you can toward the ceiling, then let them fall heavy to your sides.",
+    "image": "stretching arms up illustration"
+  },
+  {
+    "taskName": "Tea Ritual",
+    "taskDescription": "Make a cup of herbal tea. Focus on the steam rising and the warmth of the mug in your hands.",
+    "image": "warm tea mug illustration"
+  },
+  {
+    "taskName": "Visualization",
+    "taskDescription": "Close your eyes and imagine a 'happy place.' Try to imagine the temperature, the sounds, and the colors of that place.",
+    "image": "peaceful beach visualization illustration"
+  },
+  {
+    "taskName": "Compliment Someone",
+    "taskDescription": "Send a quick text or tell someone nearby something you appreciate about them. Kindness boosts your own mood.",
+    "image": "sending kind message illustration"
+  },
+  {
+    "taskName": "Dance It Out",
+    "taskDescription": "Play one upbeat song and move your body however feels right. Shaking off tension physically works wonders.",
+    "image": "dancing happy movement illustration"
+  },
+  {
+    "taskName": "Coloring Break",
+    "taskDescription": "Doodle or color in a small area of a notebook. Focus on the strokes and the colors appearing on the page.",
+    "image": "doodling coloring art illustration"
+  },
+  {
+    "taskName": "Listen to Brown Noise",
+    "taskDescription": "Listen to a low-frequency sound like a waterfall or a heavy fan. It helps drown out racing thoughts.",
+    "image": "sound waves relaxation illustration"
+  },
+  {
+    "taskName": "Foot Grounding",
+    "taskDescription": "Take off your shoes and press your feet firmly into the floor. Feel the support of the ground beneath you.",
+    "image": "bare feet on ground illustration"
+  },
+  {
+    "taskName": "The 2-Minute Tidy",
+    "taskDescription": "Pick up 5 items that are out of place and put them away. Small wins build momentum.",
+    "image": "cleaning up small tasks illustration"
+  },
+  {
+    "taskName": "Soft Gaze",
+    "taskDescription": "Look out a window and soften your focus. Let your eyes relax rather than staring intensely at one thing.",
+    "image": "soft gaze out window illustration"
+  },
+  {
+    "taskName": "Butterfly Hug",
+    "taskDescription": "Cross your arms over your chest and tap your shoulders rhythmically, like butterfly wings.",
+    "image": "butterfly hug self comfort illustration"
+  },
+  {
+    "taskName": "Plan a Treat",
+    "taskDescription": "Decide on one small thing you will treat yourself to later today—a favorite snack, a show, or a bath.",
+    "image": "planning reward treat illustration"
+  },
+  {
+    "taskName": "Unclench Your Jaw",
+    "taskDescription": "Notice if your teeth are pressed together. Drop your jaw, let your tongue rest away from the roof of your mouth.",
+    "image": "relaxed facial expression illustration"
+  },
+  {
+    "taskName": "Light a Candle",
+    "taskDescription": "Watch the flame of a candle for a minute. The steady, rhythmic flicker can be very hypnotic and calming.",
+    "image": "candle flame flickering illustration"
+  },
+  {
+    "taskName": "Listen to Rain",
+    "taskDescription": "Find a recording of rain sounds. Close your eyes and imagine the rain washing away your stress.",
+    "image": "rain on window sound illustration"
+  },
+  {
+    "taskName": "Write a 'Done' List",
+    "taskDescription": "Instead of a 'To-Do' list, write down 3 things you have already accomplished today, no matter how small.",
+    "image": "checklist with checkmarks illustration"
+  },
+  {
+    "taskName": "Power Pose",
+    "taskDescription": "Stand like a superhero for 30 seconds—hands on hips, chest out. It can help boost your confidence and lower cortisol.",
+    "image": "power pose confident stance illustration"
+  },
+  {
+    "taskName": "Listen to Your Heartbeat",
+    "taskDescription": "Place two fingers on your wrist or neck. Feel your pulse and count 20 beats. Acknowledge the life inside you.",
+    "image": "checking pulse heartbeat illustration"
+  },
+  {
+    "taskName": "Read a Poem",
+    "taskDescription": "Read a short poem or a single page of a book. Escaping into someone else's words provides a mental reset.",
+    "image": "reading book peaceful illustration"
+  },
+  {
+    "taskName": "Organize Photos",
+    "taskDescription": "Look through your phone's gallery and find 3 photos that make you smile. Relive those memories for a moment.",
+    "image": "scrolling photos happy memories illustration"
+  },
+  {
+    "taskName": "Gentle Neck Stretch",
+    "taskDescription": "Slowly tilt your head to the left, then the right. Hold each side for 10 seconds to release neck tension.",
+    "image": "neck stretch exercise illustration"
+  },
+  {
+    "taskName": "Step Outside",
+    "taskDescription": "Even if just for a minute, step out the door. Feel the air temperature and the change in environment.",
+    "image": "stepping outside fresh air illustration"
+  },
+  {
+    "taskName": "Write Your Worry",
+    "taskDescription": "Write down one thing you're worried about, then rip the paper into tiny pieces and throw it away.",
+    "image": "tearing paper letting go illustration"
+  },
+  {
+    "taskName": "Mindful Eating",
+    "taskDescription": "Take one bite of food and chew it slowly. Notice the texture, the flavor, and the sound. Enjoy the process.",
+    "image": "mindful eating focus illustration"
+  },
+  {
+    "taskName": "The 'Big Sigh'",
+    "taskDescription": "Take a deep breath and let out a loud, audible sigh. Vocalizing the exhale helps release physical pressure.",
+    "image": "deep sigh relief illustration"
   }
 ]
