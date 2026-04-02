@@ -20,8 +20,9 @@ jobs:
 
       - name: Download Coverage Script
         run: |
-          curl -o xccov-to-sonarqube-generic.sh https://raw.githubusercontent.com/SonarSource/sonar-scanning-examples/master/swift-coverage/xccov-to-sonarqube-generic.sh
+          curl -L -o xccov-to-sonarqube-generic.sh "https://raw.githubusercontent.com/SonarSource/sonar-scanning-examples/refs/heads/master/swift-coverage/xccov-to-sonarqube-generic.sh"
           chmod +x xccov-to-sonarqube-generic.sh
+          head -5 xccov-to-sonarqube-generic.sh
 
       - name: Convert Coverage Report
         run: |
