@@ -13,7 +13,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Run Xcode Tests
-        run: xcodebuild test -project EaseMind.xcodeproj -scheme EaseMind -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 15' -enableCodeCoverage YES -resultBundlePath build/result.xcresult
+        run: xcodebuild test -project EaseMind.xcodeproj -scheme EaseMind -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 16' -enableCodeCoverage YES -resultBundlePath build/result.xcresult
 
       - name: Install SonarScanner
         run: brew install sonar-scanner
