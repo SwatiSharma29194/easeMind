@@ -18,6 +18,11 @@ jobs:
       - name: Install SonarScanner
         run: brew install sonar-scanner
 
+      - name: Download Coverage Script
+        run: |
+          curl -o xccov-to-sonarqube-generic.sh https://raw.githubusercontent.com/SonarSource/sonar-scanning-examples/master/swift-coverage/xccov-to-sonarqube-generic.sh
+          chmod +x xccov-to-sonarqube-generic.sh
+
       - name: Convert Coverage Report
         run: |
           mkdir -p sonar-reports
