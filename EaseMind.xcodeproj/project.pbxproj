@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		C22A9BAE2F412A4E00ACF3A5 /* moodModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C22A9BAC2F412A4E00ACF3A5 /* moodModel.xcdatamodeld */; };
+		C280D2352F35483400D62311 /* File.txt in Resources */ = {isa = PBXBuildFile; fileRef = C280D2342F35483400D62311 /* File.txt */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		C26A8B6C2F2043AA008DF7F3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,12 +29,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C22A9BAD2F412A4E00ACF3A5 /* moodModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = moodModel.xcdatamodel; sourceTree = "<group>"; };
 		C26A8B522F2043A8008DF7F3 /* EaseMind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EaseMind.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C26A8B6B2F2043AA008DF7F3 /* EaseMindTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EaseMindTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C26A8B752F2043AA008DF7F3 /* EaseMindUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EaseMindUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C280D2342F35483400D62311 /* File.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = File.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		C24919642F3919DA008F74BD /* Exceptions for "EaseMind" folder in "EaseMindTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"GreatVibes-Regular.ttf",
+			);
+			target = C26A8B6A2F2043AA008DF7F3 /* EaseMindTests */;
+		};
 		C26A8B7D2F2043AA008DF7F3 /* Exceptions for "EaseMind" folder in "EaseMind" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
@@ -44,6 +58,7 @@
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
 				C26A8B7D2F2043AA008DF7F3 /* Exceptions for "EaseMind" folder in "EaseMind" target */,
+				C24919642F3919DA008F74BD /* Exceptions for "EaseMind" folder in "EaseMindTests" target */,
 			);
 			path = EaseMind;
 			sourceTree = "<group>";
@@ -88,6 +103,8 @@
 		C26A8B492F2043A7008DF7F3 = {
 			isa = PBXGroup;
 			children = (
+				C22A9BAC2F412A4E00ACF3A5 /* moodModel.xcdatamodeld */,
+				C280D2342F35483400D62311 /* File.txt */,
 				C26A8B542F2043A8008DF7F3 /* EaseMind */,
 				C26A8B6E2F2043AA008DF7F3 /* EaseMindTests */,
 				C26A8B782F2043AA008DF7F3 /* EaseMindUITests */,
@@ -208,6 +225,8 @@
 			);
 			mainGroup = C26A8B492F2043A7008DF7F3;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = C26A8B532F2043A8008DF7F3 /* Products */;
 			projectDirPath = "";
@@ -225,6 +244,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C280D2352F35483400D62311 /* File.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C22A9BAE2F412A4E00ACF3A5 /* moodModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,25 +309,30 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 69BRY53BD3;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = X746HK4PWQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = EaseMind/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Ease Mind";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.swati.easeMind.EaseMind;
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swati.rs.EaseMind;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -316,25 +342,30 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 69BRY53BD3;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = X746HK4PWQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = EaseMind/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Ease Mind";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.swati.easeMind.EaseMind;
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swati.rs.EaseMind;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -571,6 +602,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C22A9BAC2F412A4E00ACF3A5 /* moodModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C22A9BAD2F412A4E00ACF3A5 /* moodModel.xcdatamodel */,
+			);
+			currentVersion = C22A9BAD2F412A4E00ACF3A5 /* moodModel.xcdatamodel */;
+			path = moodModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = C26A8B4A2F2043A7008DF7F3 /* Project object */;
 }

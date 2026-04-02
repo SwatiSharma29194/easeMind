@@ -7,7 +7,7 @@
 
 import UIKit
 import CoreData
-
+import AVFAudio
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -15,7 +15,26 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        UNUserNotificationCenter.current().delegate = self
+        UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .sound, .badge]) { granted, error in
+                if granted {
+                    print("Notification authorization granted")
+                } else {
+                    print("Notification authorization denied")
+                }
+            }
+        do {
+               try AVAudioSession.sharedInstance().setCategory(.playback, mode: .default)
+               try AVAudioSession.sharedInstance().setActive(true)
+           } catch {
+               print("Failed to set audio session for background playback: \(error)")
+           }
         return true
+    }
+    func applicationWillEnterForeground(_ application: UIApplication) {
+    }
+    func applicationDidEnterBackground(_ application: UIApplication) {
+        AudioManager.shared.pause()
     }
 
     // MARK: UISceneSession Lifecycle
@@ -41,7 +60,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
          application to it. This property is optional since there are legitimate
          error conditions that could cause the creation of the store to fail.
         */
-        let container = NSPersistentContainer(name: "EaseMind")
+        let container = NSPersistentContainer(name: "moodModel")
         container.loadPersistentStores(completionHandler: { (storeDescription, error) in
             if let error = error as NSError? {
                 // Replace this implementation with code to handle the error appropriately.
@@ -78,4 +97,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
 }
-
+extension AppDelegate: UNUserNotificationCenterDelegate {
+    func userNotificationCenter(
+        _ center: UNUserNotificationCenter,
+        willPresent notification: UNNotification,
+        withCompletionHandler completionHandler:
+        @escaping (UNNotificationPresentationOptions) -> Void
+    ) {
+        completionHandler([.banner, .sound])
+    }
+}
